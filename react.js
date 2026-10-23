@@ -1,4 +1,3 @@
-
 let notes = [];
 let editIndex = -1;
 
@@ -61,6 +60,10 @@ function displayNotes() {
             displayNotes();
         };
 
+        function Save(){
+            
+        }
+
         div.appendChild(heading);
         div.appendChild(paragraph);
         div.appendChild(editButton);
@@ -69,4 +72,3 @@ function displayNotes() {
         notesDiv.appendChild(div);
     });
 }
-
